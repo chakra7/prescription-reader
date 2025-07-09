@@ -1,5 +1,5 @@
 from fastapi import FastAPI, UploadFile
-from ollama_test import convert_image_to_text
+from lib.prescription_reader import convert_image_to_text
 
 app = FastAPI()
 
